@@ -35,6 +35,6 @@ jobs:
       
       # Deploy to surge
       - name:  Deploy to surge
-        run: 
-        run: 
+        run: surge ./ algotech.surge.sh --token $ {{ secrets.SURGE_TOKEN }}
+        
           
